@@ -1388,9 +1388,9 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
-    color: #333;
+    color: rgba(0, 0, 0, 0.823);
     background-color: #fff;
     font-display: swap;
 }
