@@ -20,7 +20,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.logoSize{
+    width: 30%;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -303,7 +305,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: 40px;
+    height: 50px;
     padding: 3px 15px;
     font-size: 28px;
     font-weight: normal;
@@ -312,9 +314,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 50px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 250px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -381,9 +384,7 @@ a:hover {
     .title bloc2{
         margin-bottom: 15px;
     }
-    .site-navigation {
-    
-    }
+  
     .authorCitation{
         font-size: 16px;
     }
@@ -729,7 +730,6 @@ h2 {
 
 h3 {
     font-size: 18px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
@@ -830,10 +830,12 @@ h4 {
 
 .bg-banniere, .bg-banniere_1 {
     background-image: url("./img/la-chouette-agence-banniere.webp");
+    width: 100%;
 }
 
 .bg-presentation {
     background-image: url("./img/image-de-presentation.webp");
+    width: 100%;
 }
 .partenaires_link,
 .social_link{
