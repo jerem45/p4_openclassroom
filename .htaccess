@@ -1,6 +1,4 @@
-fModule mod_deflate.c>
- SetOutputFilter DEFLATE
- DeflateCompressionLevel 9
+
 </IfModule>
 
 <Location />
@@ -15,6 +13,5 @@ fModule mod_deflate.c>
  AddOutputFilterByType DEFLATE application/atom_xml
  AddOutputFilterByType DEFLATE application/x-javascript
 
- # Pour les proxies
  Header append Vary User-Agent env=!dont-vary
 </Location>
