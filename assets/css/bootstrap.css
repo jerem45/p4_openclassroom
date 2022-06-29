@@ -6,8 +6,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family:sans-serif;
-    -webkit-text-size-adjust:100%;
-    -ms-text-size-adjust:100%
+
 }
 body {
     margin:0
@@ -2976,7 +2975,7 @@ tbody.collapse.in {
     margin-left:2px;
     vertical-align:middle;
     border-top:4px dashed;
-    border-top:4px solid\9;
+    border-top:4px solid black;
     border-right:4px solid transparent;
     border-left:4px solid transparent
 }
@@ -3046,7 +3045,6 @@ tbody.collapse.in {
     cursor:not-allowed;
     background-color:transparent;
     background-image:none;
-    filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 .open>.dropdown-menu {
     display:block
@@ -3586,7 +3584,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
     max-height:340px
 }
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
         max-height:200px
     }
